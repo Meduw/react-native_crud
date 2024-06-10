@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "title": "First product",
+      "info": "Product info",
+      "price": 2000,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG8qGjRLcc3TfbwqrOhi4ksz74ZhNts1YzTg&s"
+    },
+    {
+      "id": 3,
+      "title": "First product",
+      "info": "Product info",
+      "price": 3000,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvbMNsAbuFlyMOt9w606ILN-QffhQrTYCz-w&s"
+    },
+    {
+      "id": 4,
+      "title": "First products are made ",
+      "info": "Product info",
+      "price": 4500,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvbMNsAbuFlyMOt9w606ILN-QffhQrTYCz-w&s"
+    },
+    {
+      "img": "Hggg",
+      "title": "Ggg",
+      "info": "Ggg",
+      "price": 1230,
+      "id": 5
+    }
+  ]
+}
