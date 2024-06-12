@@ -2,12 +2,15 @@ import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
 import AppNavigations from "./navigation/AppNavigations";
 import ProductsContextProvider from "./contexts/productsContext";
+import CartContextProvider from "./contexts/CartContext";
 
 export default function App() {
   return (
-    <ProductsContextProvider>
-      <AppNavigations />
-    </ProductsContextProvider>
+    <CartContextProvider>
+      <ProductsContextProvider>
+        <AppNavigations />
+      </ProductsContextProvider>
+    </CartContextProvider>
   );
 }
 

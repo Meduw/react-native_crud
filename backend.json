@@ -9,7 +9,7 @@
     },
     {
       "id": 3,
-      "title": "First product",
+      "title": "First productive week ",
       "info": "Product info",
       "price": 3000,
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvbMNsAbuFlyMOt9w606ILN-QffhQrTYCz-w&s"
@@ -22,11 +22,53 @@
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvbMNsAbuFlyMOt9w606ILN-QffhQrTYCz-w&s"
     },
     {
-      "img": "Hggg",
-      "title": "Ggg",
-      "info": "Ggg",
-      "price": 1230,
-      "id": 5
+      "img": "https://img.gazeta.ru/files3/908/13992908/241534055_382838246697743_397465620499748676_n-pic_32ratio_1200x800-1200x800-35766.jpg",
+      "title": "Пума ",
+      "info": "Ор",
+      "price": 20000,
+      "id": 6
+    },
+    {
+      "img": "https://sun9-25.userapi.com/impg/U_GZ7f9Ha61H-yG4HZMt8JkbsXqtgQupS_zasw/ZfGZwZmbJlo.jpg?size=1280x952&quality=96&sign=ddfc3ed33626f44105fde12770c58d1f&type=album",
+      "title": "Пума ",
+      "info": "Ор",
+      "price": 20000,
+      "id": 7
+    },
+    {
+      "img": "https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663664920_20-mykaleidoscope-ru-p-zlie-lvi-krasivo-22.jpg",
+      "title": "Лев ",
+      "info": "Свирепый ",
+      "price": 5000,
+      "id": 8
+    },
+    {
+      "img": "https://pibig.info/uploads/posts/2022-11/1668726062_59-pibig-info-p-leopard-gepard-yaguar-pinterest-67.jpg",
+      "title": "Ягуар ",
+      "info": "Дикий ",
+      "price": null,
+      "id": 9
+    },
+    {
+      "img": "https://get.wallhere.com/photo/tiger-muzzle-predator-striped-eyes-big-cat-652892.jpg",
+      "title": "Тигр ",
+      "info": "Тигр ",
+      "price": 100000,
+      "id": 10
+    },
+    {
+      "img": "https://img.razrisyika.ru/kart/114/1200/454766-polyarnyy-medved-17.jpg",
+      "title": "Белый медведь ",
+      "info": "Животное ",
+      "price": 10000,
+      "id": 11
+    },
+    {
+      "img": "https://crosti.ru/patterns/00/02/ee/98_picture_8bed8fa0.jpg",
+      "title": "Орел ",
+      "info": "Гордый ",
+      "price": 10000,
+      "id": 12
     }
   ]
 }

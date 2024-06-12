@@ -1,5 +1,7 @@
-import { useContext, useEffect } from "react";
+import { useContext, useEffect, useState } from "react";
 import {
+  RefreshControl,
+  SafeAreaView,
   ScrollView,
   StyleSheet,
   Text,
@@ -13,13 +15,22 @@ import ProductCard from "../components/ProductCard";
 
 export default function HomePage({ navigation }) {
   const { products, getProducts } = useContext(productsContext);
+  const [refreshing, setRefreshing] = useState(false);
 
   useEffect(() => {
     getProducts();
   }, []);
 
+  function onRefresh() {
+    setRefreshing(true);
+    getProducts();
+    setTimeout(() => {
+      setRefreshing(false);
+    }, 1000);
+  }
+
   return (
-    <View>
+    <SafeAreaView>
       <View style={styles.addBtnContainer}>
         <TouchableOpacity
           onPress={() => navigation.navigate("add-form")}
@@ -29,6 +40,9 @@ export default function HomePage({ navigation }) {
         </TouchableOpacity>
 
         <ScrollView
+          refreshControl={
+            <RefreshControl refreshing={refreshing} onRefresh={onRefresh} />
+          }
           showsVerticalScrollIndicator={false}
           contentInset={{ bottom: 200 }}
           contentContainerStyle={styles.cardParent}
@@ -38,7 +52,7 @@ export default function HomePage({ navigation }) {
           ))}
         </ScrollView>
       </View>
-    </View>
+    </SafeAreaView>
   );
 }
 

@@ -2,7 +2,7 @@ import axios from "axios";
 import { createContext, useReducer } from "react";
 
 export const productsContext = createContext();
-const API = "http://192.168.0.53:8000/products";
+const API = "http://192.168.0.50:8000/products";
 
 const INIT_STATE = {
   products: [],
